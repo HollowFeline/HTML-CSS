@@ -1,0 +1,9 @@
+body {
+    background-color: #e3e2e2;
+}
+
+span {
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 2px 5px;
+}
