@@ -1,11 +1,24 @@
 body{
-    background-color: aliceblue;
+    background-image: url("https://images3.alphacoders.com/123/thumb-1920-1233035.jpg");
+    background-size: cover;
+    background-color: rgba(94, 94, 94, 0.7);
+    background-blend-mode: multiply;
 }
 
 p{
     font-size: 20px;
+    color: white;
+}
+
+h1,h2{
+    color: white;
 }
 
 img {
     width: 200px;
+}
+
+hr{
+    color: lightgray;
+    opacity: 70%;
 }
