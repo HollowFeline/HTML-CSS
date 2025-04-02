@@ -1,0 +1,23 @@
+body {
+    background-color: #f8e6cc;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: 1s;
+}
+
+.block:hover {
+    border-radius: 50%;
+    background-color: grey;
+    transition: 1s;
+}
