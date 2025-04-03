@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-/*----------------------- pink section -------------------------------*/
-#pink_section{
+section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 50vh;
+}
+/*----------------------- pink section -------------------------------*/
+#pink_section{
     background-color: #ffc1cb;
 }
 
@@ -27,11 +29,6 @@
 /*----------------------- black section -------------------------------*/
 
 #black_section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
     background-color: black;
 }
 

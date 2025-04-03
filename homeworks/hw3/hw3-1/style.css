@@ -5,7 +5,7 @@
 }
 
 body{
-    padding: 1vh 20vw;
+    margin: 1vh 20vw;
 }
 /*-------------- header ---------------*/
 header{
@@ -28,12 +28,12 @@ main {
     justify-content: space-around;
     gap: 1vh;
 }
-main div{
+main section{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 23vh;
-    width: 20vw;
+    width: 33%;
     background-color: #16457a;
 }
 main p{
