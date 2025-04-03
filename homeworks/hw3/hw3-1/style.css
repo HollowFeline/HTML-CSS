@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 1vh 20vw;
+}
+/*-------------- header ---------------*/
+header{
+    height: 23vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #216abb;
+}
+header p{
+    font-size: 3em;
+    color: white;
+}
+
+/*------------- main -------------------*/
+main {
+    padding: 1vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1vh;
+}
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 23vh;
+    width: 20vw;
+    background-color: #16457a;
+}
+main p{
+    font-size: 2em;
+    color: white;
+}
+
+/*------------- footer ------------------*/
+
+footer{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #216abb;
+}
+
+footer p{
+    font-size: 3em;
+    color: white;
+}
