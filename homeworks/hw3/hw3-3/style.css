@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+section p{
+    width: 80%;
+}
+section a{
+    font-size: 36px;
+    color: black;
+}
+
+#red_section{
+    background-color: lightcoral;
+}
+#blue_section{
+    background-color: lightskyblue;
+}
+#green_section{
+    background-color: lightgreen;
+}
