@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------- pink section -------------------------------*/
+#pink_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #ffc1cb;
+}
+
+#pink_section p{
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#pink_section h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+/*----------------------- black section -------------------------------*/
+
+#black_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: black;
+}
+
+#black_section p{
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+}
+
+#black_section h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
