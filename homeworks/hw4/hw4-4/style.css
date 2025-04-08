@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,footer,section, aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main p{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+}
+
+/*-------------------------------header and footer-------------------------------*/
+header {
+    background: #8D8484;
+    height: 20vh;
+}
+footer{
+    background: #BDBDBD;
+    height: 20vh;
+}
+header, footer p{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+}
+
+/*----------------------------------------main-----------------------------------------*/
+main{
+    display: flex;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    width: 73vw;
+}
+
+.content-1{
+    height: 20vh;
+    background: #776969;
+
+}
+.content-2{
+    height: 20vh;
+    background: #643030;
+
+}
+.content-3{
+    height: 20vh;
+    background: #441818;
+
+}
+
+.spams{
+    display: flex;
+    flex-direction: column;
+    width: 27vw;
+}
+
+.spam-1{
+    height: 30vh;
+    background: #937575;
+}
+
+.spam-2{
+    height: 30vh;
+    background: #644C4C;
+}
