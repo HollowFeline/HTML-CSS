@@ -1,0 +1,20 @@
+.first_wrapper > ul > li:nth-child(even) {
+    color: pink;
+}
+
+.second_wrapper > ul > li:nth-child(odd) {
+    font-size: 22px;
+}
+
+.third_wrapper > ul > li:nth-child(2n+4):after {
+    content: "!";
+}
+
+.fourth_wrapper > ul > li:last-of-type {
+    color: purple;
+}
+
+.fifth_wrapper > ul > li::first-letter {
+    font-size: 30px;
+    color: red;
+}
