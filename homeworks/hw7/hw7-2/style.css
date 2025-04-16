@@ -37,7 +37,7 @@ nav{
     margin: 51px 115px 51px;
 }
 
-nav h1{
+nav h2{
     color: #E5E5E5;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -107,7 +107,7 @@ main{
     align-items: center;
 }
 
-.top-section__text-wrapper h2{
+.top-section__text-wrapper h1{
     width: 261px;
     color: #FFF;
     font-family: 'Inter', sans-serif;
@@ -302,6 +302,12 @@ div.block>div:last-of-type>p{
     letter-spacing: 0.8px;
 }
 
+iframe{
+    width: 100%;
+    height: 664px;
+    background: #071341;
+}
+
 /*---------------------------------footer--------------------------------*/
 
 footer{
@@ -311,12 +317,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-footer iframe{
-    width: 100%;
-    height: 664px;
-    background: #071341;
 }
 
 footer p{
