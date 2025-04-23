@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    .image-card img{
+        width: 343px;
+        height: 257px;
+    }
+    body{
+        align-items: flex-start;
+    }
+    .wrapper{
+        padding: 32px 16px;
+        gap: 40px;
+    }
+}

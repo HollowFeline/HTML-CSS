@@ -1,0 +1,12 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .image-card img{
+        width: 218px;
+        height: 164px;
+    }
+
+    .image-card h2{
+        width: 218px;
+        text-align: center;
+    }
+
+}
