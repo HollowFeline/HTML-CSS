@@ -1,0 +1,18 @@
+@media screen and (max-width: 480px) {
+    body{
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 32px 16px;
+    }
+    .image-card{
+        width: 343px;
+    }
+    .image-card h2{
+        margin: 16px 0 8px;
+    }
+}
