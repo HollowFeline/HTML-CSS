@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+}
+
+header, footer, section, aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+}
+header {
+    background: #8D8484;
+    grid-area: header;
+}
+footer{
+    background: #BDBDBD;
+    grid-area: footer;
+}
+
+header, footer p{
+    color: #000;
+}
+
+section, aside p{
+    color: #FFF;
+
+}
+
+.content-1{
+    background: #776969;
+    grid-area: content-1;
+}
+.content-2{
+    background: #643030;
+    grid-area: content-2;
+}
+.content-3{
+    background: #441818;
+    grid-area: content-3;
+}
+
+.spam-1{
+    background: #937575;
+    grid-area: spam-1;
+}
+
+.spam-2{
+    background: #644C4C;
+    grid-area: spam-2;
+}
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "content-1 spam-1"
+    "content-2 spam-1"
+    "content-2 spam-2"
+    "content-3 spam-2"
+    "footer footer"
+}
